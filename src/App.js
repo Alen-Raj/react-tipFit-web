@@ -26,29 +26,29 @@ function App() {
   const [password, setPassword] = useState("");
   const [cPassword, setCpassword] = useState("");
   const [users, setUsers] = useState([]);
-  const [searchTerm,setSearchTerm]=useState("")
-  const [wishlist,setWishlist]=useState([])
-  const [cart,setCart]=useState([])
+  const [searchTerm, setSearchTerm] = useState("");
+  const [wishlist, setWishlist] = useState([]);
+  const [cart, setCart] = useState([]);
 
   const val = {
-    productData, setProductData, userName, setUserName, userMail, setUserMail, password,setPassword,
-    cPassword, setCpassword,users, setUsers, searchTerm, setSearchTerm, wishlist,setWishlist, cart,setCart
+    productData, setProductData, userName, setUserName, userMail, setUserMail,
+    password, setPassword, cPassword, setCpassword, users, setUsers,
+    searchTerm, setSearchTerm, wishlist, setWishlist, cart, setCart
   };
 
   const location = useLocation();
-  
-  const renderHeaderandFooter = !location.pathname.startsWith("/admin") && 
-                              location.pathname !== "/login" && 
-                              location.pathname !== "/register";
-  
-  const renderAdminHeader = location.pathname.startsWith("/admin") && 
-                          location.pathname !== "/admin/login";
 
+  const renderHeaderandFooter = !location.pathname.startsWith("/admin") &&
+    location.pathname !== "/login" &&
+    location.pathname !== "/register";
+
+  const renderAdminHeader = location.pathname.startsWith("/admin") &&
+    location.pathname !== "/admin/login";
 
   return (
     <myContext.Provider value={val}>
       {renderHeaderandFooter && <Navbar />}
-      {renderAdminHeader && <AdminNavbar/>}
+      {renderAdminHeader && <AdminNavbar />}
 
       <Routes>
         <Route path="/register" element={<Register />} />
@@ -56,7 +56,6 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/products" element={<ProductListPage />} />
         <Route path="/products/:category" element={<ProductListPage />} />
-        <Route path="/products" element={<ProductListPage />} />
         <Route path="/productDetails/:id" element={<ProductDisplayPage />} />
         <Route path="/wishlist" element={<Wishlist />} />
         <Route path="/cart" element={<Cart />} />
@@ -67,7 +66,8 @@ function App() {
         <Route path="/admin/addProduct" element={<AddProduct />} />
         <Route path="/admin/dashboard" element={<Dashboard />} />
       </Routes>
-      { renderHeaderandFooter && <Footer />}
+
+      {renderHeaderandFooter && <Footer />}
     </myContext.Provider>
   );
 }
