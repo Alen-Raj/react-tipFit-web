@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/react-tipFit-web/static/css/main.84d17799.css",
-    "main.js": "/react-tipFit-web/static/js/main.f1a28b18.js",
+    "main.js": "/react-tipFit-web/static/js/main.c6432ada.js",
     "static/media/slider-img-2.jpg": "/react-tipFit-web/static/media/slider-img-2.70dab42d7ec144fc1848.jpg",
     "static/media/slider-img-1.webp": "/react-tipFit-web/static/media/slider-img-1.9adf778b18b133ee6703.webp",
     "static/media/slider-img-4.webp": "/react-tipFit-web/static/media/slider-img-4.3098451a8d8e43c41f32.webp",
@@ -17,10 +17,10 @@
     "static/media/rupay.webp": "/react-tipFit-web/static/media/rupay.dc453c08e74f68269dff.webp",
     "index.html": "/react-tipFit-web/index.html",
     "main.84d17799.css.map": "/react-tipFit-web/static/css/main.84d17799.css.map",
-    "main.f1a28b18.js.map": "/react-tipFit-web/static/js/main.f1a28b18.js.map"
+    "main.c6432ada.js.map": "/react-tipFit-web/static/js/main.c6432ada.js.map"
   },
   "entrypoints": [
     "static/css/main.84d17799.css",
-    "static/js/main.f1a28b18.js"
+    "static/js/main.c6432ada.js"
   ]
 }
