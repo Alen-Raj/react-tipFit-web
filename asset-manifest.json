@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/react-tipFit-web/static/css/main.e6aa8753.css",
+    "main.js": "/react-tipFit-web/static/js/main.0d37eb36.js",
+    "static/media/slider-img-2.jpg": "/react-tipFit-web/static/media/slider-img-2.70dab42d7ec144fc1848.jpg",
+    "static/media/slider-img-1.webp": "/react-tipFit-web/static/media/slider-img-1.9adf778b18b133ee6703.webp",
+    "static/media/slider-img-4.webp": "/react-tipFit-web/static/media/slider-img-4.3098451a8d8e43c41f32.webp",
+    "static/media/instagram.jpg": "/react-tipFit-web/static/media/instagram.a29b079777975e8ea3f8.jpg",
+    "static/media/twitter.webp": "/react-tipFit-web/static/media/twitter.23351f84797cae9f80bb.webp",
+    "static/media/slick.svg": "/react-tipFit-web/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/react-tipFit-web/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/react-tipFit-web/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/facebook.webp": "/react-tipFit-web/static/media/facebook.e57d29222c7d112bc029.webp",
+    "static/media/slick.woff": "/react-tipFit-web/static/media/slick.295183786cd8a1389865.woff",
+    "static/media/master-card.webp": "/react-tipFit-web/static/media/master-card.3b1279eafb72ef84f55e.webp",
+    "static/media/visa.webp": "/react-tipFit-web/static/media/visa.3a95e347979af8450bac.webp",
+    "static/media/rupay.webp": "/react-tipFit-web/static/media/rupay.dc453c08e74f68269dff.webp",
+    "index.html": "/react-tipFit-web/index.html",
+    "main.e6aa8753.css.map": "/react-tipFit-web/static/css/main.e6aa8753.css.map",
+    "main.0d37eb36.js.map": "/react-tipFit-web/static/js/main.0d37eb36.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6aa8753.css",
+    "static/js/main.0d37eb36.js"
+  ]
+}
