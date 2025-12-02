@@ -30,7 +30,7 @@ export default function Home() {
   return (
     <div style={{ marginTop: "150px", display: "flex", flexDirection: "column", alignItems: "center", marginBottom: "30px" }}>
       
-      <div style={{ width: "100%", maxWidth: "1400px", marginBottom: "30px" }}>
+      <div style={{ width: "10%", maxWidth: "1200px", marginBottom: "30px" }}>
         <div style={{ borderRadius: "12px", overflow: "hidden", boxShadow: "0 4px 12px rgba(0,0,0,0.1)" }}>
           <Slider {...sliderSettings}>
             <div><div style={{ position: "relative", paddingBottom: "40%" }}><img src={SliderImage1} alt="Slide 1" style={{ position: "absolute", top: 0, left: 0, width: "100%", height: "90%", objectFit: "cover" }} /></div></div>
