@@ -39,10 +39,10 @@ export default function Nav() {
   };
 
   return (
-    <div style={{ width: "100vw", backgroundColor: "lightblue", position: "fixed", top: 0, zIndex: 100 }}>
+    <div style={{ width: "100vw", backgroundColor: "lightblue", position: "fixed", top: 0,left:0, zIndex: 100 }}>
       <div style={{ height: "90px", display: "flex", justifyContent: "space-between", alignItems: "center", borderBottom: "1px solid gray" }}>
         <div style={{ display: "flex", gap: "50px", alignItems: "center" }}>
-          <h1 style={{ color: "brown", marginLeft: "50px" }}>Tip Fit</h1>
+         <Link to={"/"} style={{textDecoration:"none"}}><h1 style={{ color: "brown", marginLeft: "50px" }}>Tip Fit</h1></Link> 
           <div style={{ position: "relative", marginLeft: "300px" }}>
             <input 
               value={searchTerm} 

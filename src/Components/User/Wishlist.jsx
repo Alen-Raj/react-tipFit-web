@@ -26,7 +26,8 @@ const Wishlist = () => {
               <div key={product.id} style={{ backgroundColor: "white", borderRadius: "10px", overflow: "hidden", boxShadow: "0 4px 8px rgba(0,0,0,0.1)", transition: "transform 0.3s ease" }}>
                 <div style={{ position: "relative" }}>
                   <img src={product.images[product.colors[0]]} alt={product.name} style={{ width: "100%", height: "250px", objectFit: "cover" }} />
-                  <button onClick={() => removeFromWishlist(product.id)} style={{ position: "absolute", top: "10px", right: "10px", backgroundColor: "rgba(255, 255, 255, 0.8)", border: "none", borderRadius: "50%", width: "36px", height: "36px", display: "flex", alignItems: "center", justifyContent: "center", cursor: "pointer", fontSize: "1.2rem", color: "#e74c3c", boxShadow: "0 2px 5px rgba(0,0,0,0.2)" }}>×</button>
+                  <button onClick={() => removeFromWishlist(product.id)}
+                   style={{ position: "absolute", top: "10px", right: "10px", backgroundColor: "rgba(255, 255, 255, 0.8)", border: "none", borderRadius: "50%", width: "36px", height: "36px", display: "flex", alignItems: "center", justifyContent: "center", cursor: "pointer", fontSize: "1.2rem", color: "#e74c3c", boxShadow: "0 2px 5px rgba(0,0,0,0.2)" }}>×</button>
                 </div>
                 <div style={{ padding: "20px" }}>
                   <h3 style={{ fontSize: "1.2rem", margin: "0 0 10px", color: "#333", fontWeight: "600" }}>{product.name}</h3>
